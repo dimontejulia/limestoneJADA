@@ -12,7 +12,7 @@
 
 
     <Button
-        android:text="Food&Dining"
+        android:text="Food And Dining"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/addFood"
@@ -48,7 +48,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Rent&House"
+        android:text="Rent And House"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/addRent"
