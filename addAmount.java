@@ -18,7 +18,7 @@ public class addAmount extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.add_amount);
 
         addGroceries = (Button) findViewById(R.id.addGroceries);
         addFood = (Button) findViewById(R.id.addFood);
