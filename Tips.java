@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         grocTips = (TextView) findViewById(R.id.grocTips);
-        /*
+        
         if (Groceries.percentSpent() < .5) {
             grocTips.setText("- You still have spent under half of your Grocery budget.");
         } else if (Groceries.percentSpent() > .5)  {
@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
         } else if (Groceries.percentSpent() > 1) {
             grocTips.setText("You've exceeded your grocery budget for this month!");
         }
-        */
+        
 
         foodTips = (TextView) findViewById(R.id.foodTips);
 
-        /*
+        
         if (foodandDining.percentSpent() < .5) {
             foodTips.setText("- You have spent under half of your food and dining budget. ");
         } else if (foodandDining.percentSpent() > .5)  {
@@ -40,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
             foodTips.setText("- You're over 90% of your food and dining budget! ");
         } else if (foodandDining.percentSpent() > 1) {
             foodTips.setText(" STOP DINING OUT!!");
-        */
+        }
 
          treatTips = (TextView) findViewById(R.id.treatTips);
-        /*
-         if (treatYoSelf.percentSpent() <.5) {
+        
+        if (treatYoSelf.percentSpent() <.5) {
             treatTips.setText("- You've spent under half of your Treat Yo Self budget, so Treat Yo Self!");
         } else if (treatYoSelf.percentSpent() > .5)  {
             treatTips.setText("- You've spent over half of your Treat Yo Self budget, maybe take it easy. ");
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (treatYoSelf.percentSpent() > 1) {
             treatTips.setText("- STOP TREATING YOURSELF!!");
         }
-        */
+        
 
 
 
