@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Groceries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGroceriesTitle"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progGroceries"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:text="amount used"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmtGroceries"
+        android:textSize="18sp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:text="Food and Dining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFoodTitle"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progFood"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:text="amount used"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmtFood"
+        android:textSize="18sp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:text="Rent and House"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRentTitle"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progRent"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:text="amount used"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmtRent"
+        android:layout_marginBottom="34dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:text="Treat Yo Self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTreatTitle"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progTreat"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:text="Amount View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmtTreat"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp" />
+</LinearLayout>
